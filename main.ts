@@ -14,14 +14,14 @@ input.onButtonPressed(Button.B, function () {
     number = randint(0, 2)
     if (number == 0) {
         basic.showIcon(IconNames.Sad)
-        music.playMelody("C5 A B G A F G E ", 120)
+        music.playMelody("C5 A B G A F G E ", 500)
     } else if (number == 1) {
         basic.showIcon(IconNames.Happy)
-        music.playMelody("E D G F B A C5 B ", 120)
+        music.playMelody("E D G F B A C5 B ", 500)
         basic.clearScreen()
     } else if (number == 2) {
         basic.showIcon(IconNames.Happy)
-        music.playMelody("E D G F B A C5 B ", 120)
+        music.playMelody("E D G F B A C5 B ", 500)
         basic.clearScreen()
     }
 })
